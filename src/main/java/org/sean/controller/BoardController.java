@@ -24,6 +24,10 @@ public class BoardController {
 	public void listAll(Model model)throws Exception{
 		logger.info("list...");
 		
+		
+		
+		
+		
 		//model.addAttribute("list",service.listAll());
 	}
 	
