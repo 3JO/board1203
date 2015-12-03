@@ -1,7 +1,5 @@
 package org.sean.domain;
 
-import java.util.Date;
-
 public class BoardVO {
 	
 	private int bno;
