@@ -25,9 +25,6 @@ public class BoardController {
 		logger.info("list...");
 		
 		
-		
-		
-		
 		//model.addAttribute("list",service.listAll());
 	}
 	
