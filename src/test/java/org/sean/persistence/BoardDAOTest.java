@@ -32,7 +32,7 @@ public class BoardDAOTest {
 	
 	@Test
 	public void testRead() throws Exception{
-		logger.info(dao.read(1).toString());
+		logger.info(dao.read(3).toString());
 	}
 	
 	@Test
@@ -48,5 +48,11 @@ public class BoardDAOTest {
 	@Test
 	public void testDelete() throws Exception{
 		dao.delete(1);
+	}
+	
+	@Test
+	public void testlistAll()throws Exception{
+		dao.listAll();
+		logger.info(dao.listAll().toString());
 	}
 }
