@@ -1,11 +1,15 @@
 package org.sean.domain;
 
+import java.util.Date;
+
 public class BoardVO {
 	
 	private int bno;
 	private String title;
-	private String text;
+	private String content;
 	private String writer;
+	private Date rgdate;
+	private int viewcnt;
 	
 	public int getBno() {
 		return bno;
@@ -19,11 +23,11 @@ public class BoardVO {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public String getText() {
-		return text;
+	public String getContent() {
+		return content;
 	}
-	public void setText(String text) {
-		this.text = text;
+	public void setContent(String content) {
+		this.content = content;
 	}
 	public String getWriter() {
 		return writer;
@@ -31,13 +35,23 @@ public class BoardVO {
 	public void setWriter(String writer) {
 		this.writer = writer;
 	}
+	public Date getRgdate() {
+		return rgdate;
+	}
+	public void setRgdate(Date rgdate) {
+		this.rgdate = rgdate;
+	}
+	public int getViewcnt() {
+		return viewcnt;
+	}
+	public void setViewcnt(int viewcnt) {
+		this.viewcnt = viewcnt;
+	}
 	@Override
 	public String toString() {
-		return "BoardVO [bno=" + bno + ", title=" + title + ", text=" + text + ", writer=" + writer + "]";
+		return "BoardVO [bno=" + bno + ", title=" + title + ", content=" + content + ", writer=" + writer + ", rgdate="
+				+ rgdate + ", viewcnt=" + viewcnt + "]";
 	}
 	
 	
-	
-	
-
 }
