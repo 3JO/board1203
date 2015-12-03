@@ -7,9 +7,6 @@ public class BoardVO {
 	private String text;
 	private String writer;
 	
-	public BoardVO(int i, String string, String string2, String string3) {
-		// TODO Auto-generated constructor stub
-	}
 	public int getBno() {
 		return bno;
 	}

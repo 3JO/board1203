@@ -10,9 +10,8 @@ public class SampleController5 {
 	@RequestMapping("/doJSON")
 	public @ResponseBody BoardVO doJSON(){
 		
-		BoardVO vo = new BoardVO(1,"test","test","test");
-		
-		return vo;
+				
+		return null;
 		
 	}
 
